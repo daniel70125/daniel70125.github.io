@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- AOS -->
+ <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<!-- Font Awesome CDN-->
+<script src="https://kit.fontawesome.com/706ae24a0d.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<link href="./index.css" rel="stylesheet">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Daniel Wright - Portfolio</title>
+</head>
+<body>
+	<div id='home-main-cont'>
+		<header style='position:sticky; z-index:1; top:0;' class='mobile-nav'>
+			<i class="fas fa-bars"></i>
+		</header>
+		<header class='lg-screen'>
+			<div id='home-icon-cont'>
+				<a class='up-on-hover' data-toggle="tooltip" title="About Me" href='#home-intro-div'>
+					<i class="headerI fas fa-user"></i>
+				</a>
+				<a class='up-on-hover' data-toggle="tooltip" title="Developer Tools" href='#languages-cont'>
+					<i class="headerI  fas fa-tools"></i>
+				</a>
+				<a class='up-on-hover' data-toggle="tooltip" title="My Projects" href='#projects-cont'>
+					<i class="headerI  fas fa-folder"></i>
+				</a>
+				<a class='up-on-hover' data-toggle="tooltip" title="Contact Me" href='#contact-cont'>
+					<i class="headerI  fas fa-paper-plane"></i>
+				</a>
+			</div>
+			<div id='home-social-links'>
+				<a class='up-on-hover' href='https://www.linkedin.com/in/daniel70125/'>
+					<i class="fab fa-linkedin"></i>
+				</a>
+				<a class='up-on-hover' href='https://github.com/daniel70125'>
+					<i class="fab fa-github"></i>
+				</a>
+			</div>
+		</header>
+
+		<div id='home-intro-div'>
+			<div id='intro-headline'>
+				<h1 id='h1-intro'>Daniel Wright</h1>
+				<hr id='hr-intro'/>
+				<h3 id='h3-intro'>Web Developer</h3>
+			</div>
+		</div>
+		<h5 id='about-me-h5'>Daniel Wright</h5>
+		<div id='about-me-cont'>
+			<div class="about-me-info-cont">
+				<p id='about-me-cont-p'>
+					Certified <span class="about-me-emphasized-text">Full Stack Developer</span> with 4 years of experience specializing in
+					 <span class="about-me-emphasized-text">HTML, CSS, SQL, JavaScript,</span> and <span class="about-me-emphasized-text">React</span>.
+					 My programming journey began at Operation Spark’s bootcamp, where I discovered my love for coding, and I later earned
+					 my Full Stack Development certification from <span class="about-me-emphasized-text">DevMountain</span> in 2020. Let's connect if you’re looking for a dedicated and
+					  skilled web developer to join your team or collaborate on exciting projects. You can view my
+					   <a href='#projects-cont' style='color:grey'>Projects</a> here!
+				</p>
+			</div>
+			<div id='about-me-info-cont2' class="about-me-info-cont"></div>
+			<div id="about-me-info-cont3" class="about-me-info-cont"></div>
+		</div>
+		<h3 id='languages-h3' style='text-align:center'>Developer Tools</h3>
+		<div id='languages-cont'>
+			<div id='front-end-languages-cont'>
+				<h5>Front-End</h5>
+				<ul>
+					<li>
+						<i class="fab2 fab fa-html5"></i>
+						<span class='span'>HTML 5</span>
+					</li>
+					<li>
+						<i class="fab2 fab fa-css3-alt"></i>
+						<span class='span'>CSS 3</span>
+					</li>
+					<li>
+						<i class="fab2 fab fa-js-square"></i>
+						<span class='span'>JavaScript</span>
+					</li>
+					<li>
+						<i class="fab2 fab fa-sass"></i>
+						<span class='span'>SASS</span>
+					</li>
+					<li>
+						<i class="fab2 fab fa-bootstrap"></i>
+						<span class='span'>Bootstrap 4</span>
+					</li>
+					<li>
+						<i class="fab2 fab fa-react"></i>
+						<span class='span'>React JS</span>
+					</li>
+				</ul>
+			</div>
+			<hr class='languages-hr' />
+			<div id='back-end-languages-cont'>
+				<h5>Back-End</h5>
+				<ul>
+					<li>
+						<i class="fab2 fab fa-node"></i>
+						<span class='span'>Node JS</span>
+					</li>
+					<li>
+						<i class="fab2 fab fa-php"></i>
+						<span class='span'>PHP</span>
+					</li>
+					<li>
+						<i class="fab2 fab fa-js-square"></i>
+						<span class='span'>JavaScript</span>
+					</li>
+					<li>
+						<i class="fab2 fab fa-npm"></i>
+						<span class='span'>NPM</span>
+					</li>
+					<li>
+						<i class="fab2 fas fa-database"></i>
+						<span class='span'>Databases</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<h3 id='projects-cont-h3' style='text-align: center;padding: 10px; margin:0; font-size: 46px; text-decoration: underline;'>My Projects</h3>
+		<div id='projects-cont'>
+			<div  class='pj-div' >
+				<img id='pj-div-img' src='./Images/DataSpeaks.png'/>
+				<p>Web application created for a group project assignment to show incarcerated populations around the country.</p>
+				<span>HTML5, React, Javascript, Node.js, Material UI, Express.js, SASS/CSS3, PostgreSQL</span>
+				<div class='project-cont-links '>
+					<a href='https://github.com/Stories-with-Data/dataspeaks'>
+						<i class="fab fa-github"></i>
+					</a>
+					<a href='https://dataspeaks.us/'>
+						<i class="fas fa-link"></i>
+					</a>
+				</div>
+			</div>
+			<div  class='pj-div' id='pj-div-2'>
+				<img id='pj-div-img' src='./Images/ruthscookies.png'/>
+				<p>Site I created for a bakery. (This is a personal project made for practice purposes).</p>
+				<span>HTML5, React, Javascript, Node.js, Material UI, Express.js, SASS/CSS3, PostgreSQL</span>
+				<div class='project-cont-links project-cont-links2 project-cont-links3'>
+					<a href='https://github.com/daniel70125/cookies'>
+						<i class="fab fa-github"></i>
+					</a>
+					<a href='http://143.198.26.54:4000/#/'>
+						<i class="fas fa-link"></i>
+					</a>
+				</div>
+			</div>
+			<div class='pj-div' >
+				<img id='pj-div-img' src='./Images/SWAPI.png'/>
+				<p>Simple application that uses SWAPI API to get Star Wars information. </p>
+				<span>HTML5, Javascriipt, API, CSS3</span>
+				<div class='project-cont-links project-cont-links2'>
+					<a href='https://github.com/daniel70125/SWAPI'>
+						<i class="fab fa-github"></i>
+					</a>
+					<a href='https://dwrightportfolio.000webhostapp.com/SWAPI/swapi.html'>
+						<i class="fas fa-link"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- Contact Me Div-->
+		<h5 id='contact-h5' >Contact Me</h5>
+		<div id='contact-cont'>
+			<div id='contact-primary'>
+				<img class='js-tilt' src='./Images/contact-img.png' data-tilt />
+			</div>
+			<div id='contact-info-cont'>
+
+				<div class='contact-div-cont'>
+					<i class="fas fa-map-marker-alt" data-tilt></i>
+					<div>
+						<p>Location:</p>
+						<span>New Orleans, LA &#x1F3AD</span>
+					</div>
+				</div>
+
+				<div class='contact-div-cont'>
+					<i class="fas fa-envelope" data-tilt></i>
+					<div>
+						<p>E-Mail:</p>
+						<a href="mailto:dwrighttt504@gmail.com">dwrighttt504@gmail.com</a>
+					</div>
+				</div>
+
+				<div class='contact-div-cont'>
+					<i class="fas fa-phone-alt" data-tilt></i>
+					<div>
+						<p>Call:</p>
+						<a href="tel:5042368584">(504)236-8584</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	
+			<!-- The overlay -->
+		<div id="myNav" class="overlay">
+	
+			<!-- Button to close the overlay navigation -->
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	
+			<!-- Overlay content -->
+			<div class="overlay-content">
+				<a onclick="closeNav()" href="#about-me-h5">About Me</a>
+				<a onclick="closeNav()" href="#languages-cont">Developer Tools</a>
+				<a onclick="closeNav()" href="#projects-cont-h3">Projects</a>
+				<a onclick="closeNav()" href="#contact-cont">Contact Me</a>
+			</div>
+	
+		</div>
+	</div>
+	<!-- Menu Change on scroll-->
+	<script src="index.js"></script>
+
+	<script src="jquery.js" ></script> <!-- Load jQuery first -->
+    <script src="./vanilla-tilt.js"></script>
+
+	<!-- Typewriter library-->
+	<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+		const h3Intro = document.querySelector('#h3-intro')
+		var typewriter = new Typewriter(h3Intro, {
+			loop: true,
+			delay: 75,
+		});
+		// typewriter effect for h3-intro
+		typewriter
+			.pauseFor(1800)
+			.typeString('Creator<span>&#127912</span>')
+			.pauseFor(1000)
+			.deleteChars(9)
+			// .typeString('<strong>JS</strong> plugin for a cool typewriter effect and ')
+			.typeString('Visionary<span>&#128302</span>')
+			.pauseFor(1000)
+			.deleteChars(11)
+			.typeString('Web Developer<span>&#128187</span>')
+			.pauseFor(5000)
+			.start();
+	
+	</script>
+
+	<!-- Scroll Reveal CDN-->
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script>
+		const languageIcons = document.querySelectorAll('.fab2');
+		const languageSpan = document.querySelectorAll('.span');
+		const projectConts = document.querySelectorAll('.pj-div');
+		const contactInputs = document.querySelectorAll('.contact-div-cont');
+
+		// console.log(languageSpan);
+		ScrollReveal().reveal('#h1-intro', { distance: '100px', delay: 1500, origin: "top", opacity: 0});
+		ScrollReveal().reveal('#h3-intro', { distance: '50px', delay: 1500, origin: "bottom", opacity: 0});
+		ScrollReveal().reveal('#webdev-cert', { distance: '50px', delay: 300, origin: "bottom", opacity: 0});
+		ScrollReveal().reveal('#contact-primary', { distance: '50px', delay: 300, origin: "bottom", opacity: 0});
+
+		ScrollReveal().reveal('#about-me-cont-p', { distance: '50px', delay: 300, origin: "bottom", opacity: 0});
+		ScrollReveal().reveal('#front-end-languages-cont h5', { distance: '50px', delay: 500, origin: "bottom", opacity: 0});
+		ScrollReveal().reveal('#back-end-languages-cont h5', { distance: '50px', delay: 500, origin: "bottom", opacity: 0});
+
+		// delay for each language icon interation below.
+		let delay2 = 300;
+		// ForEach loop for language icons to reveal one after the other!
+		for (let i = 0; i < languageIcons.length; i++) {
+			const element = languageIcons[i];
+			
+			ScrollReveal().reveal(languageIcons[i], { distance: '50px', delay: delay2, origin: "bottom", opacity: 0});
+			ScrollReveal().reveal(languageSpan[i], { distance: '50px', delay: delay2, origin: "bottom", opacity: 0});
+			ScrollReveal().reveal(contactInputs[i], { distance: '50px', delay: delay2, origin: "bottom", opacity: 0});
+			delay2 = delay2 + 300;
+		}
+
+		// delay for each project div 1/3.
+		let delay3 = 100;
+		// ForEach loop for project divs to reveal one after the other!
+		for (let i = 0; i < projectConts.length; i++) {
+			const element = projectConts[i];
+		
+			ScrollReveal().reveal(projectConts[i], { distance: '50px', delay: delay3, origin: "bottom", opacity: 0});
+			delay3 = delay3 + 300;
+		}
+		for (let i = 0; i < contactInputs.length; i++) {
+			const element = contactInputs[i];
+		
+			ScrollReveal().reveal(contactInputs[i], { distance: '50px', delay: delay3, origin: "top", opacity: 0});
+			delay3 = delay3 + 300;
+		}
+
+	</script>
+</body>
+</html>
